@@ -1,0 +1,13 @@
+{
+  "name": "Replace Referrals",
+  "description": "This extension replaces referral links with the destination address",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "contentSettings"],
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ]
+}
