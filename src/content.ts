@@ -9,5 +9,6 @@ links.forEach((linkElement) => {
   if (destinationLink != null) {
     linkElement.href = destinationLink;
     linkElement.innerHTML = "🔁" + linkElement.innerHTML;
+    linkElement.dataset.rrOriginal = originalLink.toString();
   }
 });
