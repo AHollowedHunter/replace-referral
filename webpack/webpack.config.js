@@ -1,4 +1,4 @@
-// See https://betterprogramming.pub/creating-chrome-extensions-with-typescript-914873467b65
+// modified from https://betterprogramming.pub/creating-chrome-extensions-with-typescript-914873467b65
 
 const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
